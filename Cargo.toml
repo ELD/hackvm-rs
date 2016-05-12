@@ -1,0 +1,15 @@
+[package]
+name = "hackvm"
+version = "0.1.0"
+authors = ["Eric Dattore <edattore@gmail.com>"]
+
+[lib]
+name = "hackvm"
+path = "src/lib.rs"
+test = true
+
+[[bin]]
+name = "hackvm"
+path = "src/main.rs"
+
+[dependencies]
