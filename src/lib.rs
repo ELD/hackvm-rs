@@ -1,7 +1,9 @@
+extern crate regex;
+
 pub mod lex;
 pub mod parse;
 
-pub use lex::Lex;
+pub use lex::Lexer;
 
 #[cfg(test)]
 mod test {
