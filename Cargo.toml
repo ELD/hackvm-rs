@@ -12,4 +12,6 @@ test = true
 name = "hackvm"
 path = "src/main.rs"
 
-[dependencies]
+[dependencies.regex]
+version = "*"
+
